@@ -1,0 +1,22 @@
+Retain Project
+
+Frontend - React (JS) with Tailwind
+Backend - Express (TypeScript) with MySQL and Prisma as the ORM
+
+- Note Content
+    Title
+    Description
+
+- Note Types
+    Simple title + Description
+    Checkbox Style
+
+- Note Actions
+    Notes can be PINNED
+        Order of pins is dependent on when it was pinned. Stack style--first in, last out
+    Background of note can be CUSTOMIZED into FIVE different colors
+    Notes can be ARCHIVED (hidden, but not deleted)
+        Date of archival is shown
+    Notes can be DELETED
+    Searching can be done to find notes
+        Searching is limited to TITLE of the note

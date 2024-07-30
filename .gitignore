@@ -1,0 +1,24 @@
+# Logs
+/packages/*/logs
+/packages/*/*.log
+/packages/*/npm-debug.log*
+/packages/*/yarn-debug.log*
+/packages/*/yarn-error.log*
+/packages/*/pnpm-debug.log*
+/packages/*/lerna-debug.log*
+
+/packages/*/node_modules
+/packages/*/dist
+/packages/*/dist-ssr
+/packages/*/*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
