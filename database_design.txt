@@ -1,0 +1,19 @@
+Database Design
+
+NOTES
+id
+note_type_id
+title
+date_archival (timestamp)
+date_created
+
+NOTE_TYPES
+id
+description (freeform, checklist)
+
+NOTE_CONTENTS
+id
+notes_id
+description (lorem ipsum) (max of 255 per row)
+date_created
+date_modified

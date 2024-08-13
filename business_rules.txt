@@ -9,7 +9,7 @@ Backend - Express (TypeScript) with MySQL and Prisma as the ORM
 
 - Note Types
     Simple title + Description
-    Checkbox Style
+    Checkbox Style (Max of 5 entries for db storage space saving lol)
 
 - Note Actions
     Notes can be PINNED
@@ -18,5 +18,10 @@ Backend - Express (TypeScript) with MySQL and Prisma as the ORM
     Notes can be ARCHIVED (hidden, but not deleted)
         Date of archival is shown
     Notes can be DELETED
+
+- OPTIONAL FEATURES
+    Notes can be LABELED (max of 5 labels can be created)
+	Default label is 1 - "ALL" (but not shown)
+	If label is deleted, a note's label will revert back to 1
     Searching can be done to find notes
         Searching is limited to TITLE of the note
