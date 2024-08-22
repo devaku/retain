@@ -13,12 +13,16 @@ function Sidebar({ showSidebar }) {
 					<div className="text-center">
 						<p>Developed by Alejo Kim Uy</p>
 					</div>
-					<div className="flex justify-center gap-4">
-						<a href="https://github.com/devaku">
+					<div className="flex justify-center gap-4 h-6">
+						<a
+							className="inline w-6"
+							href="https://github.com/devaku">
 							<SvgGithub></SvgGithub>
 						</a>
 
-						<a href="https://www.linkedin.com/in/devaku/">
+						<a
+							className="inline w-6"
+							href="https://www.linkedin.com/in/devaku/">
 							<SvgLinkedin></SvgLinkedin>
 						</a>
 					</div>

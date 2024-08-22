@@ -5,6 +5,7 @@ export default {
 		extend: {
 			colors: {
 				'primary-yellow': '#E0CA3C',
+				'primary-border-color': '#646464',
 			},
 		},
 	},
