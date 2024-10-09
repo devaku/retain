@@ -1,0 +1,4 @@
+Figure out a solution to the google keep style
+grid layout thingie
+
+https://tailwindcss.com/docs/grid-auto-flow#basic-usage
