@@ -1,7 +1,9 @@
 debug
 
+
 # Logs
 /packages/*/logs
+/packages/frontend/src/output.css
 /packages/*/*.log
 /packages/*/npm-debug.log*
 /packages/*/yarn-debug.log*
