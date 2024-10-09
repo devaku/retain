@@ -13,12 +13,12 @@ function Deck() {
 			isArchived: false,
 			isPinned: false,
 		},
-	]); 
+	]);
 
 	return (
 		<>
-			<div className="ml-2 mt-2">
-				<Masonry columnsCount={2} gutter={5}>
+			<div className="mx-3 mt-3 mb-3">
+				<Masonry columnsCount={2} gutter="10px">
 					<Card
 						cardTitle={'LONG'}
 						cardBody={

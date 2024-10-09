@@ -12,6 +12,10 @@
 	display: none;
 }
 
+.no-focus-outline {
+	/* outline: 0; */
+}
+
 /* Transitions */
 
 .sidebar {
