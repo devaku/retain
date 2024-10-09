@@ -1,3 +1,5 @@
+debug
+
 # Logs
 /packages/*/logs
 /packages/*/*.log

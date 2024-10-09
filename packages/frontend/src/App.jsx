@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
-import Card from './components/Card';
+import Deck from './components/Deck';
 
 function App() {
 	let [showSidebar, setShowSidebar] = useState(false);
@@ -12,7 +12,7 @@ function App() {
 					setShowSidebar={setShowSidebar}
 					showSidebar={showSidebar}></Navbar>
 				<Sidebar showSidebar={showSidebar}></Sidebar>
-				<Card></Card>
+				<Deck></Deck>
 			</div>
 		</>
 	);
